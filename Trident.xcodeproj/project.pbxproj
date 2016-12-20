@@ -16,6 +16,7 @@
 		43CDFA561DCFA16600046EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CDFA541DCFA16600046EB0 /* LaunchScreen.storyboard */; };
 		43CDFA5E1DCFA1DE00046EB0 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CDFA5D1DCFA1DE00046EB0 /* IOKit.framework */; };
 		43CDFA721DCFA34300046EB0 /* exploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CDFA711DCFA34300046EB0 /* exploit.c */; };
+		D8B9CAB41E09536E00F29B76 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B9CAB31E09536E00F29B76 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		43CDFA6A1DCFA26C00046EB0 /* IOTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOTypes.h; path = Headers/IOKit/IOTypes.h; sourceTree = "<group>"; };
 		43CDFA6B1DCFA26C00046EB0 /* OSMessageNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSMessageNotification.h; path = Headers/IOKit/OSMessageNotification.h; sourceTree = "<group>"; };
 		43CDFA711DCFA34300046EB0 /* exploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exploit.c; sourceTree = "<group>"; };
+		D8B9CAB31E09536E00F29B76 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B9CAB41E09536E00F29B76 /* CoreFoundation.framework in Frameworks */,
 				43CDFA5E1DCFA1DE00046EB0 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +104,7 @@
 		43CDFA5F1DCFA1E300046EB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D8B9CAB31E09536E00F29B76 /* CoreFoundation.framework */,
 				43CDFA5D1DCFA1DE00046EB0 /* IOKit.framework */,
 			);
 			name = Frameworks;
